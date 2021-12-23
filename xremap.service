@@ -1,0 +1,14 @@
+[Unit]
+Description=Dynamic key remapper for X11 and Wayland
+
+[Service]
+KillMode=process
+ExecStart=/usr/bin/xremap %h/.config/xremap/config.yaml
+ExecStartPre=/usr/bin/xhost +SI:localuser:root
+Type=simple
+Restart=always
+
+Environment=DISPLAY=:0
+
+[Install]
+WantedBy=graphical.target
