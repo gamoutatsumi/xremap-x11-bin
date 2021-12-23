@@ -1,6 +1,6 @@
 # Maintainer: Tatsumi Gamou <tatsumigamou@protonmail.com>
 pkgname=xremap-x11-bin
-pkgver=0.1.0
+pkgver=0.1.1
 pkgrel=1
 pkgdesc="Dynamic key remapper for X11 and Wayland"
 arch=("x86_64")
