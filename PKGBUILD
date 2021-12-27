@@ -1,4 +1,4 @@
-# Maintainer: Tatsumi Gamou <tatsumigamou@protonmail.com>
+# Maintainer: Tatsumi Gamou <tatsumigamou at protonmail dot com>
 pkgname=xremap-x11-bin
 pkgver=0.1.3
 pkgrel=1
