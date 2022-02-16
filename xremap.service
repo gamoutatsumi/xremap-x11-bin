@@ -3,8 +3,7 @@ Description=Dynamic key remapper for X11 and Wayland
 
 [Service]
 KillMode=process
-ExecStart=/usr/bin/xremap %h/.config/xremap/config.yaml
-ExecStartPre=/usr/bin/xhost +SI:localuser:root
+ExecStart=/usr/bin/xremap /etc/xremap/config.yaml
 Type=simple
 Restart=always
 
